@@ -1,0 +1,3 @@
+<Context path="/prj" reloadable="false" docBase="/Documents/workspace/pjWeb/src/main/webapp">
+	<Loader className="org.apache.catalina.loader.DevLoader" />
+</Context>
