@@ -314,7 +314,7 @@
   </module>
   <module name="LineLength">
     <property name="ignorePattern" value="^import"/>
-    <property name="max" value="100"/>
+    <property name="max" value="120"/>
   </module>
   <module name="JavadocPackage">
     <property name="severity" value="ignore"/>
