@@ -50,7 +50,7 @@ public final class DevLoader extends WebappLoader {
 			if (f.isDirectory()) {
 				final var url = toURL(f);
 				if (url != null) {
-					resourceRoot.createWebResourceSet(ResourceSetType.CLASSES_JAR, "/WEB-INF/classes", url, "/");
+					resourceRoot.createWebResourceSet(ResourceSetType.PRE, "/WEB-INF/classes", url, "/");
 					log("added " + f.toURI());
 				}
 			}
