@@ -1,4 +1,4 @@
-<Context path="/prj" reloadable="true" docBase="/Documents/workspace/pjWeb/src/main/webapp">
+<Context path="/prj" reloadable="false" docBase="/Documents/workspace/pjWeb/src/main/webapp">
 	<Loader className="org.apache.catalina.loader.DevLoader" />
 	<JarScanner>
 		<JarScanFilter defaultPluggabilityScan="false" />
